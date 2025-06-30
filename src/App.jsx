@@ -23,6 +23,8 @@ function App() {
       <h1>内田 朝陽</h1>
       <div className="card">
         <h2><a href="#hoge">Learn Asahi</a></h2>
+      </div>
+      <div className="card">
         <p>
           <code>Node.js</code>と<code>React</code>で作って<code>AWS</code>でデプロイしてみました。
         </p>
