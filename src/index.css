@@ -1,0 +1,187 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.body1 {
+    width: 100%;
+    margin: 0;
+}
+.body2 {
+  color: rgb(0, 0, 0);
+}
+
+.affiliation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 37, 105);
+    padding: 25px;
+}
+
+.myphoto {
+    margin: 10px 20px 20px 20px;
+    align-items: center;
+}
+.photo {
+    width: 100px;
+    height: auto;
+}
+
+.myinfo {
+    margin: 10px 20px 20px 20px;
+}
+.myinfo h1 {
+    margin: 0;
+}
+
+.seisokuchibar{
+    background-color: rgb(135, 195, 232);
+    color: white;
+}
+.seisokuchi {
+    color: rgb(51, 136, 204);
+}
+
+.contentArea_white {
+    background-color: white;
+    padding: 40px 15%;
+    text-align: center;
+}
+
+.contentArea_white .box {
+    border-radius: 10px;
+    background-color: white;
+    transition: box-shadow 0.5s;
+    box-shadow:
+        10px 10px 30px rgba(18, 47, 61, 0.5),
+        -10px -10px 30px rgba(37, 100, 141, 0.9),
+        inset 10px 10px 30px transparent,
+        inset -10px -10px 30px transparent;
+}
+
+.contentArea_white .box:hover {
+    box-shadow:
+        10px 10px 30px transparent,
+        -10px -10px 30px transparent,
+        inset 10px 10px 30px rgba(18, 47, 61, 0.5),
+        inset -10px -10px 30px rgba(248, 253, 255, 0.9);
+}
+
+.contentArea_color {
+    background-color: rgb(0, 37, 105);
+    padding: 40px 20%;
+    text-align: center;
+}
+
+.contentArea_Sophie {
+  background-color: rgb(154,103,167);
+  padding: 40px 20%;
+  text-align: center;
+}
+
+.contentArea_color .box {
+    border-radius: 10px;
+    background-color: white;
+    transition: box-shadow 0.5s;
+    box-shadow:
+        10px 10px 30px rgba(18, 47, 61, 0.5),
+        -10px -10px 30px rgba(37, 100, 141, 0.9),
+        inset 10px 10px 30px transparent,
+        inset -10px -10px 30px transparent;
+}
+
+.contentArea_color .box:hover {
+    box-shadow:
+        10px 10px 30px transparent,
+        -10px -10px 30px transparent,
+        inset 10px 10px 30px rgba(18, 47, 61, 0.5),
+        inset -10px -10px 30px rgba(248, 253, 255, 0.9);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+}
+.title h2 {
+    margin-bottom: 0;
+    color: black;
+}
+
+.contentInfo {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.meiki {
+    color: black;
+}
