@@ -185,3 +185,7 @@ button:focus-visible {
 .meiki {
     color: black;
 }
+
+html {
+  scroll-behavior: smooth;
+}

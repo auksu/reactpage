@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div id ="home">
         <a href="https://vite.dev" target="_blank" rel="noreferrer"></a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img
@@ -22,12 +22,13 @@ function App() {
       </div>
       <h1>内田 朝陽</h1>
       <div className="card">
+        <h2><a href="#hoge">Learn Asahi</a></h2>
         <p>
           <code>Node.js</code>と<code>React</code>で作って<code>AWS</code>でデプロイしてみました。
         </p>
       </div>
 
-      <div className="affiliation">
+      <div id = "hoge" className="affiliation">
         <div className="myphoto">
           <a href="https://x.com/talesof_therays/status/1505469201884057600/photo/1">
             <img alt="襲爪雷斬" width="100" src={raizan} />
