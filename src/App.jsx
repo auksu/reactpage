@@ -176,9 +176,7 @@ function App() {
       </div>
       <div className="contentArea_white">
       <div className="center">
-        <a href="https://tales-ch.jp/special_index.php?ms_id=227">
-          <img alt="ザレイズありがとう" height="400" src={tTherays} />
-        </a>
+        <a href="https://tales-ch.jp/special_index.php?ms_id=227"><img alt="ザレイズありがとう" height="400" src={tTherays} /></a>
       </div>
 
       <div className="meiki">
