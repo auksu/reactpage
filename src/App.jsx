@@ -19,9 +19,7 @@ function App() {
             style={{ width: '510px', height: 'auto' }}
           />
         </a>
-      </div>
       <h1>内田 朝陽</h1>
-      <div className="card">
         <h2><a href="#hoge">Learn Asahi</a></h2>
         <p>
           <code>Node.js</code>と<code>React</code>で作って<code>AWS</code>でデプロイしてみました。
