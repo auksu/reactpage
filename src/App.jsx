@@ -29,7 +29,7 @@ function App() {
       <div className="affiliation">
         <div className="myphoto">
           <a href="https://x.com/talesof_therays/status/1505469201884057600/photo/1">
-            <img alt="襲爪雷斬" width="100" src="/image/raizan.png" />
+            <img alt="襲爪雷斬" width="100" src="./image/raizan.png" />
           </a>
         </div>
         <div className="myinfo">
@@ -176,7 +176,7 @@ function App() {
       <div className="contentArea_white">
       <div className="center">
         <a href="https://tales-ch.jp/special_index.php?ms_id=227">
-          <img alt="ザレイズありがとう" height="400" src="/image/t-therays.png" />
+          <img alt="ザレイズありがとう" height="400" src="./image/t-therays.png" />
         </a>
       </div>
 
