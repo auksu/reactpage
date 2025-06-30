@@ -23,7 +23,7 @@ function App() {
       <h1>内田 朝陽</h1>
       <div className="card">
         <p>
-          <code>Node.js</code>と<code>React</code>で作って<code>AWS</code>でデプロイしてみました。
+          <h3><code>Node.js</code>と<code>React</code>で作って<code>AWS</code>でデプロイしてみました。</h3>
         </p>
       </div>
 
