@@ -23,13 +23,12 @@ function App() {
       <h1>内田 朝陽</h1>
       <div className="card">
         <h2><a href="#hoge">Learn Asahi</a></h2>
-      </div>
-      <div className="card">
         <p>
           <code>Node.js</code>と<code>React</code>で作って<code>AWS</code>でデプロイしてみました。
         </p>
       </div>
 
+      <div className="card">
       <div id = "hoge" className="affiliation">
         <div className="myphoto">
           <a href="https://x.com/talesof_therays/status/1505469201884057600/photo/1">
@@ -181,6 +180,7 @@ function App() {
       <div className="center">
         <a href="https://tales-ch.jp/special_index.php?ms_id=227"><img alt="ザレイズありがとう" height="400" src={tTherays} /></a>
       </div>
+      </div>  
 
       <div className="meiki">
         <p>author : Uchida Asahi</p>
