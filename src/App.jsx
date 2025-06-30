@@ -180,6 +180,7 @@ function App() {
       <div className="center">
         <a href="https://tales-ch.jp/special_index.php?ms_id=227"><img alt="ザレイズありがとう" height="400" src={tTherays} /></a>
       </div>
+      </div>  
 
       <div className="meiki">
         <p>author : Uchida Asahi</p>
@@ -187,7 +188,6 @@ function App() {
         <p>date : 2025/07/01 (created: 2025/06/20)</p>
       </div>
       </div>
-      </div>  
     </>
   );
 }
