@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import reactLogo from './assets/dots.svg';
+import raizan from './image/raizan.png';
+import tTherays from './image/t-therays.png';
 import './App.css';
 
 function App() {
@@ -8,9 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-        </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://vite.dev" target="_blank" rel="noreferrer"></a>
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img
             src={reactLogo}
             className="logo react"
@@ -29,7 +30,7 @@ function App() {
       <div className="affiliation">
         <div className="myphoto">
           <a href="https://x.com/talesof_therays/status/1505469201884057600/photo/1">
-            <img alt="襲爪雷斬" width="100" src="./image/raizan.png" />
+            <img alt="襲爪雷斬" width="100" src={raizan} />
           </a>
         </div>
         <div className="myinfo">
@@ -176,7 +177,7 @@ function App() {
       <div className="contentArea_white">
       <div className="center">
         <a href="https://tales-ch.jp/special_index.php?ms_id=227">
-          <img alt="ザレイズありがとう" height="400" src="./image/t-therays.png" />
+          <img alt="ザレイズありがとう" height="400" src={tTherays} />
         </a>
       </div>
 
