@@ -3,13 +3,20 @@
   line-height: 1.5;
   font-weight: 400;
 
+<<<<<<< HEAD
   color: rgba(255, 255, 255, 0.87); /* 全体文字色 */
   background-color: #242424;          /* 全体背景色 */
+=======
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
 
   color-scheme: light dark; /* ブラウザに両方対応と伝える */
 }
@@ -22,6 +29,8 @@ body, #root {
   margin: 0;
   display: flex;
   flex-direction: column;
+=======
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
 }
 
 a {
@@ -174,11 +183,14 @@ button:focus-visible {
         inset -10px -10px 30px rgba(248, 253, 255, 0.9);
 }
 
+<<<<<<< HEAD
 .center {
   display: flex;
   justify-content: center; /* 横方向中央 */
 }
 
+=======
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
 .title {
     display: flex;
     justify-content: center;

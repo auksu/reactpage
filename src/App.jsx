@@ -24,7 +24,11 @@ function App() {
       <div className="card">
         <h2><a href="#hoge">Learn Asahi</a></h2>
         <p>
+<<<<<<< HEAD
           <code>Node.js</code>と<code>React</code>で作って<code>GitHub</code>でデプロイしてみました。
+=======
+          <code>Node.js</code>と<code>React</code>で作って<code>AWS</code>でデプロイしてみました。
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
         </p>
       </div>
 
@@ -107,7 +111,11 @@ function App() {
               </tr>
               <tr>
                 <th>
+<<<<<<< HEAD
                   <div className="seisokuchi">木曜AS1・金曜AM</div>
+=======
+                  <div className="seisokuchi">月曜PM・金曜AS1</div>
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
                 </th>
                 <th><font color="black">シンボル</font></th>
               </tr>
@@ -153,7 +161,11 @@ function App() {
             <h2 className="titleSentence">部活・サークル等</h2>
           </div>
           <p className="contentInfo">
+<<<<<<< HEAD
             <strong>C.A.C.・<s>軟式野球サークル</s>・探検部・あまてく</strong>
+=======
+            <strong>C.A.C.・<s>軟式野球サークル</s>・あまてく・探検部</strong>
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
           </p>
         </div>
       </div>
@@ -167,11 +179,19 @@ function App() {
             <strong>
               GPA3以上、なんか作る、なんか習得する
               <br />
+<<<<<<< HEAD
               夏の<a href="https://www.city.maibara.lg.jp/mtibuki/about_tozan/index.html">伊吹山</a>・六甲山・金剛山、雪の金剛山・蓬莱山(行った)・伊吹山
               <br />
               10キロマラソン・<a href="https://www.biwako1.jp/basic/plan">ビワイチ</a>(達成*2)・<a href="https://route3776.jp">富士3776</a>
               <br />
               動画制作、インターン(行った)、野球
+=======
+              夏の<a href="https://www.city.maibara.lg.jp/mtibuki/about_tozan/index.html">伊吹山</a>・六甲山・金剛山、雪の金剛山・蓬莱山・伊吹山
+              <br />
+              10キロマラソン・<a href="https://www.biwako1.jp/basic/plan">ビワイチ</a>(達成)・<a href="https://route3776.jp">富士3776</a>
+              <br />
+              動画制作、インターン、野球
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
             </strong>
           </p>
         </div>
@@ -185,8 +205,13 @@ function App() {
       <div class="card">
       <div className="meiki">
         <p>author : Uchida Asahi</p>
+<<<<<<< HEAD
         <p>version : 1.0.3</p>
         <p>date : 2025/10/02 (created: 2025/06/20)</p>
+=======
+        <p>version : 1.0.2</p>
+        <p>date : 2025/07/01 (created: 2025/06/20)</p>
+>>>>>>> 2ed4f31c49dd2466016a95885498bf7f242a5e45
       </div>
       </div>
       </div>
