@@ -113,7 +113,7 @@ function App() {
               </tr>
               <tr>
                 <th>
-                  <div className="seisokuchi">メディアの授業(情理)</div>
+                  <div className="seisokuchi">14号館(情理)</div>
                 </th>
                 <th>
                   <font color="black">◎</font><span style={{ color: 'grey' }}>[朝昼夕]</span>
@@ -133,6 +133,14 @@ function App() {
                   <font color="black">△</font><span style={{ color: 'grey' }}>[晴]</span>
                 </th>
               </tr>
+              <tr>
+                <th>
+                  <div className="seisokuchi">やま</div>
+                </th>
+                <th>
+                  <font color="black">▲</font><span style={{ color: 'grey' }}>[晴]</span>
+                </th>
+              </tr>
             </tbody>
           </table>
           <br></br>
@@ -145,7 +153,7 @@ function App() {
             <h2 className="titleSentence">部活・サークル等</h2>
           </div>
           <p className="contentInfo">
-            <strong>C.A.C.・あまてく・探検部</strong>
+            <strong>C.A.C.・<s>軟式野球サークル</s>・探検部・あまてく</strong>
           </p>
         </div>
       </div>
@@ -159,11 +167,11 @@ function App() {
             <strong>
               GPA3以上、なんか作る、なんか習得する
               <br />
-              夏の<a href="https://www.city.maibara.lg.jp/mtibuki/about_tozan/index.html">伊吹山</a>・六甲山・金剛山、雪の金剛山・蓬莱山・伊吹山
+              夏の<a href="https://www.city.maibara.lg.jp/mtibuki/about_tozan/index.html">伊吹山</a>・六甲山・金剛山、雪の金剛山・蓬莱山(行った)・伊吹山
               <br />
-              10キロマラソン・<a href="https://www.biwako1.jp/basic/plan">ビワイチ</a>(達成)・<a href="https://route3776.jp">富士3776</a>
+              10キロマラソン・<a href="https://www.biwako1.jp/basic/plan">ビワイチ</a>(達成*2)・<a href="https://route3776.jp">富士3776</a>
               <br />
-              動画制作、インターン、野球
+              動画制作、インターン(行った)、野球
             </strong>
           </p>
         </div>
